@@ -31,13 +31,9 @@ export default function manifest(): MetadataRoute.Manifest {
         sizes: '16x16',
         type: 'image/png',
       },
+
       {
-        src: '/apple-touch-icon.png', // Apple touch icon for iOS devices
-        sizes: '180x180',
-        type: 'image/png',
-      },
-      {
-        src: '/maskable_icon.png', // A maskable icon for Android adaptive icons
+        src: '/favicon.png', // A maskable icon for Android adaptive icons
         sizes: 'any', // Or specify common sizes like '512x512'
         type: 'image/png',
         purpose: 'maskable',
