@@ -7,7 +7,7 @@ const Calculator = () => {
   const [num, setNum] = useState('')
   const [on, setOn] = useState(false)
   const [op, setOp] = useState('')
-  const clickNum = (n: String) => {
+  const clickNum = (n: string) => {
     if (on) {
       const numstr = num + n
       setNum(numstr)
